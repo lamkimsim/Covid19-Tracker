@@ -55,6 +55,8 @@ const CountryState = (props) => {
 		} else {
 			const res = await axios.get(url);
 
+			console.log('CountryData', res.data);
+
 			dispatch({
 				type: GET_HISTORICAL_DATA_BY_COUNTRY,
 				payload: res.data,

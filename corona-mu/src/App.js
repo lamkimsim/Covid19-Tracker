@@ -9,7 +9,7 @@ const App = () => {
 	return (
 		<CountryState>
 			<div className='App'>
-				<img src={coronaImage} alt='123' />
+				<img src={coronaImage} alt='corona' />
 				<div>
 					<Search />
 					<Overview />

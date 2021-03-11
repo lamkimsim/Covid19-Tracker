@@ -47,7 +47,7 @@ const Overview = () => {
 			<Fragment>
 				{countryCase && (
 					<Grid container spacing={3}>
-						<Grid item xs={3}>
+						<Grid item xs={12} md={12}>
 							<Card className={classes.root} variant='outlined'>
 								<CardContent>
 									{countryCase.countryInfo !== undefined ? (
@@ -61,7 +61,7 @@ const Overview = () => {
 								</CardContent>
 							</Card>
 						</Grid>
-						<Grid item xs={3}>
+						<Grid item xs={12} md={4}>
 							<Card className={classes.root} variant='outlined'>
 								<CardContent>
 									<Typography variant='h5' color='textPrimary' gutterBottom>
@@ -82,7 +82,7 @@ const Overview = () => {
 								</CardContent>
 							</Card>
 						</Grid>
-						<Grid item xs={3}>
+						<Grid item xs={12} md={4}>
 							<Card className={classes.root} variant='outlined'>
 								<CardContent>
 									<Typography variant='h5' color='primary' gutterBottom>
@@ -103,7 +103,7 @@ const Overview = () => {
 								</CardContent>
 							</Card>
 						</Grid>
-						<Grid item xs={3}>
+						<Grid item xs={12} md={4}>
 							<Card className={classes.root} variant='outlined'>
 								<CardContent>
 									<Typography variant='h5' color='error' gutterBottom>

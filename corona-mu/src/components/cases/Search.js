@@ -31,9 +31,9 @@ const Search = (props) => {
 
 	// Use Effect
 	useEffect(() => {
-		getSpecificCountry('Global');
+		getSpecificCountry('Malaysia');
 		getCountryList();
-		getHistoricDataByCountry('Global');
+		getHistoricDataByCountry('Malaysia');
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
